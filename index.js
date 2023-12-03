@@ -1,2 +1,3 @@
 "use strict";
-var name = 'sam';
+var 이름 = 'kim';
+이름 = 123;
