@@ -1,2 +1,4 @@
-// union type 다양한 타입 지정
-let 이름 : string | number = 'kim';
+// 변수에 타입 담아쓰기
+type Mytype = string | number;
+
+let 이름 : Mytype= 'kim';
