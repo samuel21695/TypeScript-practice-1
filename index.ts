@@ -1,6 +1,6 @@
-// array에 쓰는 tuple type
-type Member = {
-  // 글자로 된 모든 object 속성의 타입은 : string
-  [key : string] : string
+class User {
+  name :string;
+  constructor(name :string) {
+    this.name = name;
+  }
 }
-let john : Member = { name : 'kim', age : '123'}
