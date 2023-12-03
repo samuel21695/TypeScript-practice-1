@@ -1,2 +1,2 @@
 "use strict";
-var john = [123, true];
+var john = { name: 'kim', age: '123' };
