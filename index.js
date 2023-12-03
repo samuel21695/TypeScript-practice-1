@@ -1,5 +1,5 @@
 "use strict";
-// array 타입 지정
-// string이라는 타입만 가능
-var 이름 = ['kim', 'park'];
-이름 = 123;
+// object 타입 지정
+var 이름 = { name: 'park' };
+// ? "name 속성 옵션"
+// let 이름 : {name?: string} = { name : 'park'};

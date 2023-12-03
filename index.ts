@@ -1,4 +1,6 @@
-// array 타입 지정
-// string이라는 타입만 가능
-let 이름 :string[]= ['kim', 'park'];
-이름 = 123;
+// object 타입 지정
+let 이름 : {name: string} = { name : 'park'};
+
+// ? "name 속성 옵션"
+// let 이름 : {name?: string} = { name : 'park'};
+
